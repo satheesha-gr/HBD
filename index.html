@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="floating-hearts">
+        <div class="heart">❤️</div>
+        <div class="heart">💖</div>
+        <div class="heart">✨</div>
+        <div class="heart">🎈</div>
+        <div class="heart">🎉</div>
+    </div>
+
+    <div class="card-container">
+        <h1 class="bounce-text">Happy Birthday! 🎂 </br> Potti😍 </h1>
+        
+        <img src="./photos/IMG20260414123137.jpg.jpeg" alt="Cute Birthday Animation" class="animated-pic">
+        
+        <p class="subtitle">I made something special just for you...</p>
+        
+        <button id="surpriseBtn">Click to Open Your Surprise!</button>
+        
+        <!-- Hidden Section: Reveals on Click -->
+        <div id="secretReveal" class="hidden">
+            <div id="secretMessage">
+                <h2>To my favorite person,</h2>
+                <p>Wishing you a day filled with love, laughter, and unforgettable moments. Here is a look back at some of my favorite memories with you! 🥳</p>
+            </div>
+
+            <!-- Animated Photo Slideshow Container -->
+            <div class="slideshow-container">
+                <img id="slideshowImage" src="" alt="Our Memories">
+            </div>
+        </div>
+    </div>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
